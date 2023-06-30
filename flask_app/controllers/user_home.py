@@ -54,7 +54,6 @@ def get_deals_user():
 
     return render_template('user/user_deals.html', shoes = Shoe.get_deals()) 
 
-<<<<<<< HEAD
 @app.route('/add/cart/<int:id>')
 def add_to_cart(id):
     if 'user_id' not in session:
@@ -82,5 +81,3 @@ def show_cart():
         'id': session['shoe_id']
     }
     return render_template('user/cart_show.html', shoe = Shoe.get_one(data))
-=======
->>>>>>> main
