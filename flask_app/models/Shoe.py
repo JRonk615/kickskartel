@@ -106,6 +106,10 @@ class Shoe():
 
                 return shoes
         
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
         # gets 3 random shoes to display in view shoe
         @classmethod
         def get_3_shoes(cls):
@@ -146,3 +150,7 @@ class Shoe():
                         shoes.append(cls(shoe))
 
                 return shoes
+<<<<<<< HEAD
+=======
+
+>>>>>>> main
